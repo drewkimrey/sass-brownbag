@@ -1,0 +1,47 @@
+How we're using Sass in the Naviance code base
+    - where its being used 
+        - styles.scss
+        - boostrap files
+        - bootstrap customizations
+    - how its making thinge easier, and cleaner
+        - helping modularlize our css
+        - imports serve as a table of conents 
+        - inforcing standards and exhisting patterns with variables and mixins
+
+How to install the preprocessor locally
+    - gem install 
+        - how to compile
+
+Our simple sass project
+    - creating a Hobsons slidedeck. 
+
+Defining Variables
+    - stytax
+    - what can be saved
+    - variable style
+
+Nesting, and the dangers of it
+    - what is nesting
+        why?
+        &.party
+        import into
+        too much nesting?!?!!
+
+Selector inheritance
+    - snytax
+        who cares?
+
+Writing a mixin, and using it
+    - syntax
+        - real world example
+
+Our SCSS style guide
+    - link
+        learn love 
+
+Taking it further with Compass
+    - how compass manages the no fun stuff!
+
+Making it even easier with Grunt!
+    - how grunt watch and concat is awesome. 
+    
