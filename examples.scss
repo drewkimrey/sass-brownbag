@@ -1,0 +1,74 @@
+/*
+// Defining variables
+$main-color: red;
+.#{$main-color}-header{
+    background-color: $main-color;
+}
+
+
+// Operations and Functions
+$box-total-width: 500px;
+$box-padding: 15px;
+$black: #000;
+.box {
+    padding: $box-padding;
+    width: $box-total-width - $box-padding*2;
+    background-color: lighten($black, 10%);
+}
+
+// Nesting example
+$white: #fff;
+$warning: #fe0000; // yellow
+$error: #fe0000; //red
+$info: #1fb1db; // blue
+$alert-text-color: darken($white, 5%);
+$alert-padding: 5px;
+
+.alert {
+    padding: $alert-padding;
+    color: $alert-text-color;
+    .warning {
+        background-color: $warning;
+    }
+    .error {
+        background-color: $error;
+    }
+    .info {
+        background-color: $info;
+    }
+    &.strong {
+        font-weight: bold;
+    }
+}
+// Extending
+
+.new-alerts {
+    @extend .alert;
+    // add more styles here
+}
+
+
+// refactoring our alerts with mixins
+@mixin alert-style($color){
+    background-color: lighten($color, 30%);
+    border: darken($color, 30%);
+    color: $color;
+}
+
+.alert {
+    padding: $alert-padding;
+    color: $alert-text-color;
+    .warning {
+        @include alert-style($warning);
+    }
+    .error {
+        @include alert-style($error);
+    }
+    .info {
+        @include alert-style($info);
+    }
+    &.strong {
+        font-weight: bold;
+    }
+}
+*/
